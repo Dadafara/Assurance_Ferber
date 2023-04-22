@@ -1,0 +1,256 @@
+body.form-body {
+  background: linear-gradient(
+    to top,
+    #3399ff 0%,
+    #3399ff 60%,
+    #ffff 50%,
+    #ffff 1%
+  );
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", sans-serif;
+  color: #000; }
+
+a {
+  color: #3399ff;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a:hover {
+    color: #2573c2;
+    text-decoration: none !important; }
+
+.text-black {
+  color: #000; }
+
+.content {
+  padding: 7rem 0; }
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 900; }
+
+.form-control {
+  border: none;
+  background: #f3f3f3; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000;
+    background: #f3f3f3; }
+
+.col-form-label {
+  color: #000; }
+
+.form-control, .custom-select {
+  height: 50px; }
+
+.custom-select:active, .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; }
+
+.registrer-contenu .btn-con {
+  border: none;
+  border-radius: 30px !important;
+}
+.btn-con.btn-primary {
+  background: #ede8e8;
+  color: #797474; }
+.btn-con:hover {
+  background-color: #3399ff;
+  color: #fff; }
+.btn-con:active, .btn-con:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.box {
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); }
+  .box h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center; }
+
+label.error {
+  font-size: 12px;
+  color: red; }
+
+#message {
+  resize: vertical; }
+
+#form-message-warning, #form-message-success {
+  display: none; }
+
+#form-message-warning {
+  color: #B90B0B; }
+
+#form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+#showPassword{
+  position: absolute;
+  top: 299px;
+  right: 65px;
+  cursor: pointer;
+  /* color: lightgray; */
+}
+  
+#showPwdRegistrer{
+  position: absolute;
+  top: 243px;
+  right: 50px;
+  cursor: pointer;
+  /* color: lightgray; */
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 24px;
+  float:left;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 2px;
+  top: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input.primary:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switch-text{
+  display: inline;
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+form .row .text-condition{
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+form p{
+  margin: 0;
+}
+
+form .row button{
+  background-color: #f3f3f3;
+  display: flex;
+  margin: auto;
+}
+
+form>p{
+  text-align: center;
+}
+
+.mdp-oublie{
+  display: flex;
+  float: right;
+  text-decoration: none;
+}
+
+.card-body>.heading{
+  text-align: center;
+}
+
+.registrer-contenu{
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn-urgence{
+  background-color: #4a4747;
+  color: #fff;
+  display: flex;
+  margin: auto;
+}
+
+.btn-urgence:hover{
+  background-color: #4a4747;
+  color: #fff;
+}
+
+@media (min-width: 544px) {  
+  form .form-check label{
+    font-size: 13px;
+  }
+
+  .card-body h3{
+    font-size: 33px;
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  form .form-check label{
+    font-size: 14px;
+  }
+
+  .card-body h3{
+    font-size: 40px;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  form .form-check label{
+    font-size: 15px;
+  }
+}

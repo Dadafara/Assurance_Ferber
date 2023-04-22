@@ -1,0 +1,216 @@
+.required{
+    color: red;
+  }
+  .btn {
+    border-radius: 20px;
+  }
+  .tabb>label,
+  .form-group label{
+    font-size: 1rem;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  label>span{
+    color: red;
+  }
+  #sect-profite .title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 0;
+  }
+  .informations {
+    border-radius: 100px !important;
+  }
+  h3 span,
+  h5 span{
+    text-align: center;
+    color: #3399ff;
+  }
+  h5{
+    font-weight: bold;
+  }
+  .btn-primary{
+    border-radius: 50px;
+  }
+
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    border: 1px solid#ff0000;
+  }
+
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+
+  button.counter i {
+    color: #ffffff;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  #prevBtn {
+    background-color: #bbbbbb;
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 100%;
+    display: inline-block;
+    opacity: 0.5;
+    text-align: center;
+  }
+
+  .step.active {
+    opacity: 1;
+  }
+
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #3399ff;
+  }
+  .tick_container {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+    text-align: center;
+  }
+  .tick {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 6px 12px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+  }
+  #invalid-marque{
+    color: #e30000;
+    font-size: 14px;
+    display: none;
+    margin-top: 3px;
+  }
+  /* select{
+    width: 100%;
+  } */
+  .select2-container .select2-selection--single{
+    padding: 6px 5px;
+    height:auto !important;
+  }
+  .select2-container--default .select2-selection--single,
+  .select2-dropdown{
+    border: 1px solid #3399ff;
+    border-radius: 10px !important;
+    background-color: #f3f3f3;
+  }
+  .select2-container--default.select2-container--disabled .select2-selection--single {
+    background-color: #d6dde6;
+    cursor: not-allowed;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+  }
+  .select2-search--dropdown .select2-search__field,
+  .select2-results__option{
+    padding: 5px 15px;
+  }
+  .select2-container--open .select2-dropdown--below {
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .vehicule-model{
+    display: none;
+  }
+  .form-control{
+    border: 1px solid #3399ff !important;
+  }
+  .btn-md{
+    border-radius: 10px !important;
+  }
+  .count-box h5{
+    margin-bottom: 4px;
+  }
+  .count-box h5,
+  .count-box p{
+    text-align: start !important;
+  }
+  p#mon-marque,
+  p#mon-modele,
+  p#mon-annee,
+  p#mon-version{
+    color: #1889fb;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+  select.choix,
+  input.form-control{
+    border-radius: 10px;
+    padding: 6px 10px !important;
+    height:auto !important;
+  }
+  .was-validated .form-control:valid, .form-control.is-valid {
+    background-image: none !important;
+  }
+  .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
+    box-shadow: none !important;
+  }
+  .ancien-assurance .count-box{
+    width: 80% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #ffff !important;
+  }
+  .ancien-assurance .count-box p{
+    text-align: center !important;
+  }
+  .informations {
+    border: 1px solid #b3cde7;
+    border-radius: 100px !important;
+  }
+  tr th,
+  tr td{
+    padding: 12px !important;
+  }
+  .nav-tabs {
+    overflow: auto;
+    white-space: nowrap !important;
+  }
+  #confirm-nombre{
+    width: 150px;
+  }
+  .form{
+    display: flex;
+    margin-top: 10px;
+  }
+  .form label{
+    width: 80px;
+    padding: 7px;
+    border: 1px solid #3399ff;
+    display: block;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 800;
+  }
+  .form input{
+    appearance: none;
+  }
+  .form input:checked +label{
+    border-color: #3399ff;
+    background-color: #3399ff;
+    color: #fff;
+  }

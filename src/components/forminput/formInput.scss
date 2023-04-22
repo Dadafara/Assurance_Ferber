@@ -1,0 +1,16 @@
+input{
+    border: none;
+    &:invalid[focused = "true"] { 
+        border: 1px solid red;
+    }
+    &:invalid[focused = "true"] ~ .errorMessage{
+           display: block;
+    }
+}
+
+.errorMessage{
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    display: none ;
+}
